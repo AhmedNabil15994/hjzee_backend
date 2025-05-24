@@ -1,0 +1,81 @@
+body{
+    direction: ltr;
+    text-align: left;
+}
+.pagebody {
+    margin-left: 300px;
+    margin-right: 0;
+}
+.top-nav {
+    border-radius: 0 0 30px 0;
+}
+.logohead {
+    border-radius: 0 0 30px 0;
+}
+.sidebar.min {
+    transform: translateX(-100%) !important;
+}
+.pagebody.full {
+    margin-left: 0 !important;
+    transition: .6s all ease !important;
+}
+.chat-sender img {
+    left: unset;
+    right: 10%;
+}
+.edit-profil {
+    left: unset;
+    right: 25px;
+}
+.arrsel {
+    position: absolute;
+    left: unset ;
+    right: 5%;
+}
+.form_label .float_label {
+    left: 10px;
+    right: unset;
+}
+.map-icon {
+    right: 4.5%;
+    left: unset;
+}
+.vidLink {
+left: unset;
+right: 5%;
+}
+@media (max-width: 992px){
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    .pagebody {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .pagebody.full {
+        margin-right: 0 !important;
+        transform: translateX(300px) !important;
+    }
+    .sidebar.min {
+        transform: translateX(0) !important;
+    }
+}
+@media (max-width:768px){
+    .arrsel {
+        right: 10%;
+        left: unset;
+    }
+    .location-icon {
+        right: 9.5%;
+    }
+}
+
+@media (max-width:375px){
+    .arrsel {
+        right: 13%;
+        left: unset;
+    }
+    .map-icon {
+        right: 9.5%;
+    }
+}
