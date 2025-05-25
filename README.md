@@ -16,12 +16,6 @@ php artisan migrate --seed
 
 to migrate base tables of dashboard and create new users , roles and permissions to use dashboard 
 
-dahboard info :
-
-email    : admin@tocaan.com
-
-password : 123456
-
 ## Usage for create new section in dashboard
 
 ```bash
@@ -134,15 +128,3 @@ $file->storeAs($path, $filename);]
 - run command ``` npm i date-and-time ``` (if not installed)
 - run command ``` sudo npm i forever -g ```
 - run command ``` forever start app.js ```
-
-## publish postman collection
-- https://documenter.getpostman.com/view/23102948/2s9YXiZgjb
-
-## Design Links
-- https://www.figma.com/file/WKnU4nwSt20pPHhY86burp/Hjzee1.3?type=design&node-id=0-1&mode=design
-
-## Project links
- - site url : 
- - admin url : 
-    - email : admin@tocaan.com
-    - password : 123456
