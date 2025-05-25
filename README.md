@@ -1,5 +1,7 @@
 # Project Idea
-Project for booking courses and workspaces
+Project for booking courses and workspaces <br>
+In the My Booking application, you have many courses in various fields, and you can view the places designated for meetings, and it provides you with the ability to reserve courses and places.<br>
+
 # Team dashboard 
 dashboard works with InterFace/Repository Design Pattern , read more about design pattern [here](https://asperbrothers.com/blog/implement-repository-pattern-in-laravel)
 ## Usage 
